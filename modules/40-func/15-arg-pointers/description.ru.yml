@@ -73,7 +73,7 @@ theory: |
   func main() {
   	a := 1
   	b := &a
-  	c := &b
+  	c := b
 
   	fmt.Printf("%p %p %p\n", &a, &b, &c) // 0xc000018030 0xc00000e028 0xc00000e030
   }
